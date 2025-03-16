@@ -5,7 +5,8 @@ metadata:
   namespace: default  # Specify your namespace here
 spec:
   selector:
-    app: green-nginx  # Initially, this will point to the Blue version
+    app: nginx
+    version: green  # Initially, this will point to the Blue version
   ports:
     - protocol: TCP
       port: 80
